@@ -441,7 +441,14 @@ void pagarReservaConTarjeta() {
 }
 
 int main() {
-    cout << "Bienvenido a CINEMA, por favor eliga una opción.\n";
+    cout << "Proyecto semestral - aplicación cinema";
+    cout << "\nintegrantes:";
+    cout << "\n-Alisson Mariam Pérez Acosta.";
+    cout << "\n-Ángel David Martínez Cruz.";
+    cout << "\n-Kevin Alejandro Muñoz Nasmin.";
+    cout << "\n-Jaider Adrian Rueda Córdoba.";
+    cout << "\n-Veronica Torres Zamora.";
+    cout << "\nBienvenido a CINEMA, por favor eliga una opción.\n";
 
     do {
         cout << "\n¿Qué te gustaría hacer?\n";
@@ -482,5 +489,13 @@ int main() {
         }
     } while (selector != 9);
 
+
+
+
+
+
+
+
+    
     return 0;
 }
